@@ -56,4 +56,4 @@ El curso combina teoría con prácticas en laboratorio, proyectos individuales y
 
 ## Listado de participantes
 Leonardo Montes 
-Juan Esteban Valencia Idarraga (Lo mas dificil del proceso, es tener la logica para resolver los problemas...)
+Juan Esteban Valencia Idarraga (La logica y el enfoque para resolver problemas son lo mas dificil, porque la sintaxis se aprende solo leyendo y escribiendo.)
