@@ -66,4 +66,4 @@ Juan Esteban Valencia Idarraga (Lo mas dificil del proceso, es tener la logica p
 Juan Esteban Valencia Idarraga (La logica y el enfoque para resolver problemas son lo mas dificil, porque la sintaxis se aprende solo leyendo y escribiendo.)
 >>>>>>> 5897d2d8d8566faebfff3593221fa82e68403aa8
 
-Mariana Villegas Arredondo (Construyendo codigo y compartiendo conocimiento es una nueva oportunidadad para aprender)
+Mariana Villegas Arredondo (Construyendo codigo y compartiendo conocimiento es una nueva oportunidad para aprender)
