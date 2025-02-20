@@ -69,3 +69,5 @@ Juan Esteban Valencia Idarraga (La logica y el enfoque para resolver problemas s
 Mariana Villegas Arredondo (Construyendo codigo y compartiendo conocimiento es una nueva oportunidad para aprender)
 
 Omar Elias Mendez Allan (El código también es un tipo de arte, la creatividad existe en la programación)
+
+Antonio Jose Cardona Rodriguez (Automatiza lo aburrido, optimiza lo lento.)
