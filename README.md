@@ -53,3 +53,6 @@ Al finalizar el curso, el estudiante podrá diseñar e implementar soluciones ba
 
 🚀 **Metodología**
 El curso combina teoría con prácticas en laboratorio, proyectos individuales y colaborativos en GitHub.
+
+## Listado de participantes
+Leonardo Montes 
