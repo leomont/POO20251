@@ -63,7 +63,5 @@ Jhan Posada (“Primero resuelve el problema, después escribe el código”)
 Juan Esteban Valencia Idarraga (Lo mas dificil del proceso, es tener la logica para resolver los problemas...)
 >>>>>>> 803f26f325e6068624ac434a876ffbbf65d6a291
 
-Jhan Posada (“Primero resuelve el problema, después escribe el código”)
-=======
 Juan Esteban Valencia Idarraga (La logica y el enfoque para resolver problemas son lo mas dificil, porque la sintaxis se aprende solo leyendo y escribiendo.)
 >>>>>>> 5897d2d8d8566faebfff3593221fa82e68403aa8
