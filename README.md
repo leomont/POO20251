@@ -56,3 +56,4 @@ El curso combina teoría con prácticas en laboratorio, proyectos individuales y
 
 ## Listado de participantes
 Leonardo Montes 
+Jhan Posada 
