@@ -78,5 +78,5 @@ Santiago Naranjo Sánchez ("La libertad no es más que la oportunidad de ser mej
 
 Sebastian Rendon Giraldo (Escribir Codigo es un arte que con arte y dedicacion se logra.)
 
-Aura Cristina Osorio (la conexión es la esencia, la curiosidad es el puente y el universo es el reflejo de nuestra propia infinitud)
+AuraOsorio (la conexión es la esencia, la curiosidad es el puente y el universo es el reflejo de nuestra propia infinitud)
 
