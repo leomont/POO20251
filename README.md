@@ -73,3 +73,5 @@ Omar Elias Mendez Allan (El código también es un tipo de arte, la creatividad 
 Antonio Jose Cardona Rodriguez (Automatiza lo aburrido, optimiza lo lento.)
 
 Sebastian Rendon Giraldo (Escribir Codigo es un arte que con arte y dedicacion se logra)
+
+Santiago Naranjo Sánchez ("La libertad no es más que la oportunidad de ser mejor")
