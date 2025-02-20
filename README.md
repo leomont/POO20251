@@ -56,4 +56,8 @@ El curso combina teoría con prácticas en laboratorio, proyectos individuales y
 
 ## Listado de participantes
 Leonardo Montes 
+<<<<<<< HEAD
 Jhan Posada 
+=======
+Juan Esteban Valencia Idarraga (Lo mas dificil del proceso, es tener la logica para resolver los problemas...)
+>>>>>>> 803f26f325e6068624ac434a876ffbbf65d6a291
