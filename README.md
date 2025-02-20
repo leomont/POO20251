@@ -71,3 +71,5 @@ Mariana Villegas Arredondo (Construyendo codigo y compartiendo conocimiento es u
 Omar Elias Mendez Allan (El código también es un tipo de arte, la creatividad existe en la programación)
 
 Antonio Jose Cardona Rodriguez (Automatiza lo aburrido, optimiza lo lento.)
+
+Sebastian Rendon Giraldo (Escribir Codigo es un arte que con arte y dedicacion se logra)
