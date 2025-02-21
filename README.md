@@ -80,3 +80,5 @@ Sebastian Rendon Giraldo (Escribir Codigo es un arte que con arte y dedicacion s
 
 AuraOsorio (la conexión es la esencia, la curiosidad es el puente y el universo es el reflejo de nuestra propia infinitud)
 
+Miguel Angel Cardenas Navarro (Programar no es solo escribir código, es crear soluciones que cambien el mundo.)
+
