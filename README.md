@@ -82,3 +82,4 @@ AuraOsorio (la conexión es la esencia, la curiosidad es el puente y el universo
 
 Miguel Angel Cardenas Navarro (Programar no es solo escribir código, es crear soluciones que cambien el mundo.)
 
+Mauricio Agudelo ("Todo con paciencia se soluciona")
