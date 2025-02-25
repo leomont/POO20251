@@ -84,4 +84,5 @@ Miguel Angel Cardenas Navarro (Programar no es solo escribir código, es crear s
 Mauricio Agudelo ("Todo con paciencia se soluciona")
 
 Juan José Toro ("Si lo puedes imaginar, lo puedes programar")
+
 Jhonnatan Gomez Toro ( "Codifica con logica,depura con paciencia y compila con pasion")
