@@ -87,4 +87,6 @@ Juan José Toro ("Si lo puedes imaginar, lo puedes programar")
 
 Jhonnatan Gomez Toro ( "Codifica con logica,depura con paciencia y compila con pasion")
 
-Leidy Laura Morales ( "Programar es todo un mundo por descubrir, requiere una mente abierta y ante todo resiliencia" )
+Leidy Laura Morales ( "Programar es todo un mundo por descubrir, requiere una mente abierta y ante todo resiliencia" ) 
+
+Camilo Andres Londoño ("Toma riesgos y prepárate para fallar")
