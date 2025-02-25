@@ -90,3 +90,5 @@ Jhonnatan Gomez Toro ( "Codifica con logica,depura con paciencia y compila con p
 Leidy Laura Morales ( "Programar es todo un mundo por descubrir, requiere una mente abierta y ante todo resiliencia" ) 
 
 Camilo Andres Londoño ("Toma riesgos y prepárate para fallar")
+
+Camila Tobon Lopez (" El arte desafía A la tecnología y la tecnología inspira al arte")
