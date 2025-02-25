@@ -2,7 +2,7 @@
 Listado de alumnos del curso con su impresion u opinion acerca de lo que la programacion y su experiencia
 
 
-
+Jhonnatan Gomez Toro ( "Codifica con logica,depura con paciencia y compila con pasion")
 # Programación Orientada a Objetos (POO)  
 **Universidad de Caldas - Ingeniería de Sistemas**  
 
