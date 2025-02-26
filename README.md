@@ -91,7 +91,7 @@ Leidy Laura Morales ( "Programar es todo un mundo por descubrir, requiere una me
 
 Camilo Andres Londoño ("Toma riesgos y prepárate para fallar")
 
-Camila Tobon Lopez (" El arte desafía A la tecnología y la tecnología inspira al arte")
+Camila Tobon Lopez ("El arte desafía A la tecnología y la tecnología inspira al arte")
 
 Sarita Osorio Chaparro ("La tecnología lo es todo, pero gracias a la imaginación y la creatividad nos ayudan a cambiar el mundo y todo se nos hace más fácil y rápido")
 
