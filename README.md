@@ -98,3 +98,5 @@ Sarita Osorio Chaparro ("La tecnología lo es todo, pero gracias a la imaginaci
 Jeisson David Guarin ("Si tú no trabajas por tus sueños, alguien te contratará para que trabajes por los suyos" - Steve Jobs -)
 
 Jennifer Alejandra Aguilar Gomez ("No te preocupes por los errores en el código. Si los encuentras, significa que estás creando algo.") – Andrew Hunt
+
+Alejandro Villa Osorio ("Un dia a la vez, un paso a la vez").
