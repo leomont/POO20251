@@ -94,3 +94,5 @@ Camilo Andres Londoño ("Toma riesgos y prepárate para fallar")
 Camila Tobon Lopez (" El arte desafía A la tecnología y la tecnología inspira al arte")
 
 Sarita Osorio Chaparro ("La tecnología lo es todo, pero gracias a la imaginación y la creatividad nos ayudan a cambiar el mundo y todo se nos hace más fácil y rápido")
+
+Jeisson David Guarin ("Si tú no trabajas por tus sueños, alguien te contratará para que trabajes por los suyos" - Steve Jobs -)
