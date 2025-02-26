@@ -103,4 +103,4 @@ Alejandro Villa Osorio ("Un dia a la vez, un paso a la vez").
 
 Juan David Toro ("La armonía es la base de la realización personal y profesional")
 
-Leda van Grieken Tiles ("Olvidé poner el punto y coma... Este es el error más común que escucho en programación.")
+Leda van Grieken Tiles ("La programación es para mí una forma de potenciar habilidades y desarrollar nuevas destrezas. Empecé con pseudocódigo en PSeInt y luego aprendí de forma empírica en Java y Python, apoyándome en tutoriales de YouTube. Me gustan las matemáticas, y la programación me permite aplicar la lógica y la creatividad para resolver problemas.")
