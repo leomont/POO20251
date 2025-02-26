@@ -102,3 +102,5 @@ Jennifer Alejandra Aguilar Gomez ("No te preocupes por los errores en el código
 Alejandro Villa Osorio ("Un dia a la vez, un paso a la vez").
 
 Juan David Toro ("La armonía es la base de la realización personal y profesional")
+
+Leda van Grieken Tiles ("Olvidé poner el punto y coma...")
