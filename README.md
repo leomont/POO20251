@@ -103,10 +103,7 @@ Alejandro Villa Osorio ("Un dia a la vez, un paso a la vez").
 
 Juan David Toro ("La armonía es la base de la realización personal y profesional")
 
-<<<<<<< HEAD
 Leda van Grieken Tiles ("La programación es para mí una forma de potenciar habilidades y desarrollar nuevas destrezas. Empecé con pseudocódigo en PSeInt y luego aprendí de forma empírica en Java y Python, apoyándome en tutoriales de YouTube. Me gustan las matemáticas, y la programación me permite aplicar la lógica y la creatividad para resolver problemas.")
-=======
-Leda van Grieken Tiles ("Olvidé poner el punto y coma... Este es el error más común que escucho en programación.")
 
 Juan Manuel Correa ("Estudiar programación te desafía a resolver problemas de manera creativa, te permite convertir ideas en realidad y te da las herramientas para construir el futuro. Además, te abre puertas a un mundo lleno de oportunidades y crecimiento constante. ¡Es como tener el poder de crear todo lo que imaginas!")
 >>>>>>> 112b70e399828ee5a8e464536d891f010b457fdf
