@@ -100,3 +100,5 @@ Jeisson David Guarin ("Si tú no trabajas por tus sueños, alguien te contratar�
 Jennifer Alejandra Aguilar Gomez ("No te preocupes por los errores en el código. Si los encuentras, significa que estás creando algo.") – Andrew Hunt
 
 Alejandro Villa Osorio ("Un dia a la vez, un paso a la vez").
+
+Juan David Toro ("La armonía es la base de la realización personal y profesional")
