@@ -105,4 +105,4 @@ Juan David Toro ("La armonía es la base de la realización personal y profesion
 
 Leda van Grieken Tiles ("Olvidé poner el punto y coma... Este es el error más común que escucho en programación.")
 
-Juan Manuel Correa ("No tengas miedo de fallar, ten miedo de no intentarlo.")
+Juan Manuel Correa ("Estudiar programación te desafía a resolver problemas de manera creativa, te permite convertir ideas en realidad y te da las herramientas para construir el futuro. Además, te abre puertas a un mundo lleno de oportunidades y crecimiento constante. ¡Es como tener el poder de crear todo lo que imaginas!")
