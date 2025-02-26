@@ -92,3 +92,5 @@ Leidy Laura Morales ( "Programar es todo un mundo por descubrir, requiere una me
 Camilo Andres Londoño ("Toma riesgos y prepárate para fallar")
 
 Camila Tobon Lopez (" El arte desafía A la tecnología y la tecnología inspira al arte")
+
+Jeisson David Guarin ("Si tú no trabajas por tus sueños, alguien te contratará para que trabajes por los suyos" - Steve Jobs)
