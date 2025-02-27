@@ -59,11 +59,8 @@ Leonardo Montes
 <<<<<<< HEAD
 Jhan Posada (“Primero resuelve el problema, después escribe el código”)
 =======
-Juan Esteban Valencia Idarraga (Lo mas dificil del proceso, es tener la logica para resolver los problemas...)
->>>>>>> 803f26f325e6068624ac434a876ffbbf65d6a291
 
 Juan Esteban Valencia Idarraga (La logica y el enfoque para resolver problemas son lo mas dificil, porque la sintaxis se aprende solo leyendo y escribiendo.)
->>>>>>> 5897d2d8d8566faebfff3593221fa82e68403aa8
 
 Mariana Villegas Arredondo (Construyendo codigo y compartiendo conocimiento es una nueva oportunidad para aprender)
 
@@ -109,3 +106,5 @@ Juan Manuel Correa ("Estudiar programación te desafía a resolver problemas de 
 
 Juliana Valencia Arias (Es mejor primero desarrollar todo con logica desde el principio, a tener que jugarsela con el ensayo y error)
 >>>>>>> 112b70e399828ee5a8e464536d891f010b457fdf
+
+Juan Diego Granada Agudelo ("Gracias a la programación sufro de insominio")
