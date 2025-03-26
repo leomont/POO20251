@@ -1,0 +1,36 @@
+import java.security.SecureRandom;
+import java.util.Scanner;
+
+public class LanzamientoDados {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        SecureRandom random = new SecureRandom();
+
+
+        System.out.print("Ingrese el número de lanzamientos: ");
+        int lanzamientos = scanner.nextInt();
+
+        int[] frecuencia = new int[6];
+        for (int i = 0; i < lanzamientos; i++) {
+            int resultado = random.nextInt(6) + 1;
+
+
+            switch (resultado) {
+                case 1 -> frecuencia[0]++;
+                case 2 -> frecuencia[1]++;
+                case 3 -> frecuencia[2]++;
+                case 4 -> frecuencia[3]++;
+                case 5 -> frecuencia[4]++;
+                case 6 -> frecuencia[5]++;
+            }
+        }
+
+
+        System.out.println("\ncara\tfrecuencia");
+        for (int i = 0; i < 6; i++) {
+            System.out.println((i + 1) + "\t" + frecuencia[i]);
+        }
+
+        scanner.close();
+    }
+}
