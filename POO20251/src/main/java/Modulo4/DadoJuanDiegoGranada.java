@@ -10,7 +10,7 @@ public class DadoJuanDiegoGranada {
         int lanzamientos=teclado.nextInt();
         teclado.nextLine();
         for (int i = 0; i <= lanzamientos; i++) {
-            dado= random.nextInt(6);
+            dado= random.nextInt(1,7);
             switch (dado) {
                 case 1 -> con1++;
                 case 2 -> con2++;
