@@ -17,6 +17,7 @@ public class DadoJuanDiegoGranada {
                 case 3 -> con3++;
                 case 4 -> con4++;
                 case 5 -> con5++;
+                case 6 -> con6++;
             }
         }
         System.out.println("Cantidad de 1: "+con1+"\nCantidad de 2: "+con2+"\nCantidad de 3: "+con3+"\nCantidad de 4: "+con4+"\nCantidad de 5: "+con5+
