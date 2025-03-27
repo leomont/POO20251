@@ -6,7 +6,7 @@ package com.mycompany.simulaciondado;
 
 /**
  *
- * @author buqx
+ * @author Juan Esteban Valencia Idarraga
  */
 import java.security.SecureRandom;
 import java.util.Scanner;
