@@ -9,7 +9,7 @@ public class DadoJuanDiegoGranada {
         Scanner teclado=new Scanner(System.in);
         int lanzamientos=teclado.nextInt();
         teclado.nextLine();
-        for (int i = 0; i <= lanzamientos; i++) {
+        for (int i = 0; i < lanzamientos; i++) {
             dado= random.nextInt(1,7);
             switch (dado) {
                 case 1 -> con1++;
