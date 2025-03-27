@@ -3,13 +3,13 @@ package Modulo4;
 public class motocicleta {
 
     //Definir los atributos
+
     String chasis;
     String cilindraje;
     String marca;
     String color;
     String tipoCombustilble;
     String placa;
-
     //Definir las metodos
 
 
