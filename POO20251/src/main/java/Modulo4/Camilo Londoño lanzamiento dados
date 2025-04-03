@@ -1,44 +1,42 @@
 import java.security.SecureRandom;
 import java.util.Scanner;
 
-public class SimulacionLanzamientoDados {
-
+public class SimulacionDados2 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        SecureRandom random = new SecureRandom();
+       
 
-        System.out.print("Ingrese el número de lanzamientos: ");
-        long lanzamientos = scanner.nextLong();
-
-        long frecuencia1 = 0;
-        long frecuencia2 = 0;
-        long frecuencia3 = 0;
-        long frecuencia4 = 0;
-        long frecuencia5 = 0;
-        long frecuencia6 = 0;
+// Mantenemos el nombre original de la clase
 
 
-        for (long i = 0; i < lanzamientos; i++) {
-            int cara = 1 + random.nextInt(6);
 
-            switch (cara) {
-                case 1 -> frecuencia1++;
-                case 2 -> frecuencia2++;
-                case 3 -> frecuencia3++;
-                case 4 -> frecuencia4++;
-                case 5 -> frecuencia5++;
-                case 6 -> frecuencia6++;
+                Scanner scanner = new Scanner(System.in);
+                SecureRandom random = new SecureRandom();
+
+                System.out.print("Ingrese el número de lanzamientos: ");
+                long lanzamientos = scanner.nextLong();
+
+                // Creamos un array para almacenar las frecuencias.
+                // Usamos long[] porque 'lanzamientos' es long y las frecuencias podrían ser muy grandes.
+                // Tamaño 7 para usar índices 1-6 correspondientes a las caras.
+                long[] frecuencia = new long[7]; // Índice 0 no se usará
+
+                // Realizamos los lanzamientos
+                for (long i = 0; i < lanzamientos; i++) {
+                    // Generamos el número aleatorio para la cara del dado (1 a 6)
+                    int cara = 1 + random.nextInt(6);
+
+                    // Incrementamos el contador en el array correspondiente a la cara obtenida
+                    frecuencia[cara]++; // Esto reemplaza el switch
+                }
+
+                // Imprimimos los resultados usando un bucle y el array
+                System.out.printf("%nCara   Frecuencia%n");
+                // Iteramos desde el índice 1 hasta el 6 (el tamaño del array es 7)
+                for (int cara = 1; cara < frecuencia.length; cara++) {
+                    // Imprimimos la cara (índice) y su frecuencia almacenada en el array
+                    System.out.printf("%-6d %d%n", cara, frecuencia[cara]); // Ajustamos un poco el formato para alinear
+                }
+
+                scanner.close(); // Cerramos el scanner al final
             }
         }
-
-        System.out.printf("%nCara   Frecuencia%n");
-        System.out.printf("1      %d%n", frecuencia1);
-        System.out.printf("2      %d%n", frecuencia2);
-        System.out.printf("3      %d%n", frecuencia3);
-        System.out.printf("4      %d%n", frecuencia4);
-        System.out.printf("5      %d%n", frecuencia5);
-        System.out.printf("6      %d%n", frecuencia6);
-
-        scanner.close();
-    }
-}
