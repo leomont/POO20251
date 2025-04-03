@@ -9,7 +9,7 @@ class calculoNotas{
         double nota1 = sc.nextDouble();
         double nota2 = sc.nextDouble();
 
-        if(nota1 + nota2 ==7){
+        if(nota1 + nota2 >=7){
             System.out.println("Aprueba");
         }
         else{
