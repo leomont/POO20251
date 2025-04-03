@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class EvaluacionEstudiante { public static void main(String[] args) { Scanner scanner = new Scanner(System.in);
+
+// Solicitar las dos notas
+    System.out.print("Ingrese la primera nota: ");
+    int nota1 = scanner.nextInt();
+    
+    System.out.print("Ingrese la segunda nota: ");
+    int nota2 = scanner.nextInt();
+    
+    // Calcular el promedio
+    int promedio = (nota1 + nota2) / 2;
+    
+    // Determinar si aprobó o reprobó
+    if (promedio > 7) {
+        System.out.println("El estudiante aprobó con un promedio de " + promedio);
+    } else {
+        System.out.println("El estudiante reprobó con un promedio de " + promedio);
+    }
+    
+    scanner.close();
+}
+
+}
