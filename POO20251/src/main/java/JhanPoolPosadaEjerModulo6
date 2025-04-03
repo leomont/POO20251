@@ -1,0 +1,117 @@
+public class Ejercicios {
+    public static void main(String[] args) {
+        // Ejercicio Variables: Operaciones aritméticas
+        int numeroA = 89, numeroB = 323;
+        System.out.println("Número A: " + numeroA);
+        System.out.println("Número B: " + numeroB);
+        System.out.println("Suma: " + (numeroA + numeroB));
+        System.out.println("Resta: " + (numeroA - numeroB));
+        System.out.println("Multiplicación: " + (numeroA * numeroB));
+        System.out.println("División: " + ((double)numeroA / numeroB));
+        
+        // Ejercicio Variables: Conversor de moneda
+        double pesos = 10000;
+        double tasaCambio = 3895;
+        System.out.println("Cantidad en dólares: " + (pesos / tasaCambio));
+        
+        // Ejercicio Variables: Factura con IVA
+        double base = 50000;
+        double iva = base * 0.19;
+        double total = base + iva;
+        System.out.println("Base: " + base);
+        System.out.println("IVA: " + iva);
+        System.out.println("Total: " + total);
+        
+        // Ejercicio Condicionales: Día de la semana
+        int dia = 3;
+        String nombreDia = switch (dia) {
+            case 1 -> "Lunes";
+            case 2 -> "Martes";
+            case 3 -> "Miércoles";
+            case 4 -> "Jueves";
+            case 5 -> "Viernes";
+            case 6 -> "Sábado";
+            case 7 -> "Domingo";
+            default -> "Número inválido";
+        };
+        System.out.println("Día de la semana: " + nombreDia);
+        
+        // Ejercicio Condicionales: Ordenamiento de números
+        int x = 5, y = 2, z = 8;
+        int[] numeros = {x, y, z};
+        Arrays.sort(numeros);
+        System.out.println("Ordenados: " + Arrays.toString(numeros));
+        
+        // Ejercicio Condicionales: Primera cifra de un número
+        int numero = 23456;
+        while (numero >= 10) {
+            numero /= 10;
+        }
+        System.out.println("Primera cifra: " + numero);
+        
+        // Ejercicio Ciclos: Múltiplos de 8
+        int i = 0;
+        while (i <= 100) {
+            System.out.println(i);
+            i += 8;
+        }
+        
+        // Ejercicio Ciclos: Promedio de números positivos
+        Scanner sc = new Scanner(System.in);
+        int suma = 0, count = 0, num;
+        do {
+            num = sc.nextInt();
+            if (num >= 0) {
+                suma += num;
+                count++;
+            }
+        } while (num >= 0);
+        System.out.println("Promedio: " + (count > 0 ? (double) suma / count : 0));
+        
+        // Ejercicio Ciclos: Conteo de positivos y negativos
+        int positivos = 0, negativos = 0;
+        for (int j = 0; j < 10; j++) {
+            int n = sc.nextInt();
+            if (n >= 0) positivos++;
+            else negativos++;
+        }
+        System.out.println("Positivos: " + positivos + ", Negativos: " + negativos);
+        
+        // Ejercicio Ciclos: Pirámide numérica
+        int filas = sc.nextInt();
+        for (int k = 1; k <= filas; k++) {
+            for (int l = 1; l <= k; l++) {
+                System.out.print(l);
+            }
+            for (int l = k - 1; l >= 1; l--) {
+                System.out.print(l);
+            }
+            System.out.println();
+        }
+        
+        // Ejercicio Arreglos: Arreglo de caracteres
+        char[] caracteres = {'h', 'z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'i'};
+        System.out.println(Arrays.toString(caracteres));
+        
+        // Ejercicio Arreglos: Orden Inverso
+        int[] arr = new int[10];
+        for (int j = 0; j < 10; j++) {
+            arr[j] = sc.nextInt();
+        }
+        for (int j = 9; j >= 0; j--) {
+            System.out.print(arr[j] + " ");
+        }
+        System.out.println();
+        
+        // Ejercicio Arreglos: Par o Impar
+        int[] nums = new int[8];
+        for (int j = 0; j < 8; j++) {
+            nums[j] = sc.nextInt();
+        }
+        for (int j = 0; j < 8; j++) {
+            System.out.println(nums[j] + (nums[j] % 2 == 0 ? " Par" : " Impar"));
+        }
+        
+        sc.close();
+    }
+}

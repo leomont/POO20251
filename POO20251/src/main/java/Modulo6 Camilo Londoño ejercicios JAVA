@@ -1,0 +1,337 @@
+import java.util.Scanner;
+import java.util.Arrays;
+import java.util.Collections;
+
+public class EjerciciosJava {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("--- Ejercicio 1: Variables Básicas ---");
+        ejercicioVariablesBasicas();
+
+        System.out.println("\n--- Ejercicio 2: Conversor de Moneda ---");
+        ejercicioConversorMoneda();
+
+        System.out.println("\n--- Ejercicio 3: Factura con IVA ---");
+        ejercicioFacturaIVA();
+
+        System.out.println("\n--- Ejercicio 4: Día de la Semana ---");
+        ejercicioDiaSemana(scanner);
+
+        System.out.println("\n--- Ejercicio 5: Ordenamiento de Números ---");
+        ejercicioOrdenarNumeros(scanner);
+
+        System.out.println("\n--- Ejercicio 6: Primera Cifra de un Número ---");
+        ejercicioPrimeraCifra(scanner);
+
+        System.out.println("\n--- Ejercicio 7: Múltiplos de 8 ---");
+        ejercicioMultiplosDe8();
+
+        System.out.println("\n--- Ejercicio 8: Promedio de Números Positivos ---");
+        ejercicioPromedioPositivos(scanner);
+
+        System.out.println("\n--- Ejercicio 9: Conteo de Positivos y Negativos ---");
+        ejercicioConteoPositivosNegativos(scanner);
+
+        System.out.println("\n--- Ejercicio 10: Pirámide Numérica ---");
+        ejercicioPiramideNumerica(scanner);
+
+        System.out.println("\n--- Ejercicio 11: Arreglo de Caracteres ---");
+        ejercicioArregloCaracteres();
+
+        System.out.println("\n--- Ejercicio 12: Orden Inverso ---");
+        ejercicioOrdenInverso(scanner);
+
+        System.out.println("\n--- Ejercicio 13: Par o Impar ---");
+        ejercicioParImpar(scanner);
+
+        // Cerrar el scanner al final de todas las operaciones
+        scanner.close();
+        System.out.println("\n--- Todos los ejercicios completados ---");
+    }
+
+    // 1. Ejercicio Variables
+    public static void ejercicioVariablesBasicas() {
+        int numeroA = 89;
+        int numeroB = 323;
+
+        System.out.println("Valor de numeroA: " + numeroA);
+        System.out.println("Valor de numeroB: " + numeroB);
+
+        int suma = numeroA + numeroB;
+        int resta = numeroA - numeroB;
+        int multiplicacion = numeroA * numeroB;
+        // Para la división, es importante considerar el tipo de dato para obtener decimales si es necesario
+        double division = (double) numeroA / numeroB; // Casting a double para división decimal
+
+        System.out.println("Suma (A + B): " + suma);
+        System.out.println("Resta (A - B): " + resta);
+        System.out.println("Multiplicación (A * B): " + multiplicacion);
+        System.out.printf("División (A / B): %.4f%n", division); // Formatear la salida
+    }
+
+    // 2. Ejercicio Variables (Conversor de Moneda)
+    public static void ejercicioConversorMoneda() {
+        double pesosColombianos = 50000; // Ejemplo de cantidad en pesos
+        final double TASA_CAMBIO_DOLAR = 3895.0; // Valor fijo del dólar en pesos
+
+        double dolares = pesosColombianos / TASA_CAMBIO_DOLAR;
+
+        System.out.printf("%.2f pesos colombianos equivalen a %.2f dólares (Tasa: 1 USD = %.2f COP)%n",
+                pesosColombianos, dolares, TASA_CAMBIO_DOLAR);
+    }
+
+    // 3. Ejercicio Variables (Factura con IVA)
+    public static void ejercicioFacturaIVA() {
+        double baseCompra = 100000; // Precio sin IVA
+        final double PORCENTAJE_IVA = 0.19; // 19%
+
+        double ivaCalculado = baseCompra * PORCENTAJE_IVA;
+        double totalFactura = baseCompra + ivaCalculado;
+
+        System.out.printf("Base de la compra: %.2f%n", baseCompra);
+        System.out.printf("IVA (%.0f%%): %.2f%n", PORCENTAJE_IVA * 100, ivaCalculado);
+        System.out.printf("Total Factura: %.2f%n", totalFactura);
+    }
+
+    // 4. Ejercicio Condicionales (Día de la Semana)
+    public static void ejercicioDiaSemana(Scanner scanner) {
+        System.out.print("Ingrese un número del 1 al 7 para el día de la semana: ");
+        int diaNum = scanner.nextInt();
+        String nombreDia;
+
+        switch (diaNum) {
+            case 1:
+                nombreDia = "Lunes";
+                break;
+            case 2:
+                nombreDia = "Martes";
+                break;
+            case 3:
+                nombreDia = "Miércoles";
+                break;
+            case 4:
+                nombreDia = "Jueves";
+                break;
+            case 5:
+                nombreDia = "Viernes";
+                break;
+            case 6:
+                nombreDia = "Sábado";
+                break;
+            case 7:
+                nombreDia = "Domingo";
+                break;
+            default:
+                nombreDia = "Número inválido. Debe ser entre 1 y 7.";
+                break;
+        }
+        System.out.println("El día correspondiente es: " + nombreDia);
+    }
+
+    // 5. Ejercicio Condicionales (Ordenamiento de Números)
+    public static void ejercicioOrdenarNumeros(Scanner scanner) {
+        int[] numeros = new int[3];
+        System.out.println("Ingrese tres números enteros:");
+        System.out.print("Número 1: ");
+        numeros[0] = scanner.nextInt();
+        System.out.print("Número 2: ");
+        numeros[1] = scanner.nextInt();
+        System.out.print("Número 3: ");
+        numeros[2] = scanner.nextInt();
+
+        // Mostrar orden original
+        System.out.println("Orden original: " + Arrays.toString(numeros));
+
+        // Ordenar el arreglo
+        Arrays.sort(numeros);
+
+        // Mostrar ordenado
+        System.out.println("Ordenado: " + Arrays.toString(numeros));
+    }
+
+    // 6. Ejercicio Condicionales (Primera Cifra de un Número)
+    public static void ejercicioPrimeraCifra(Scanner scanner) {
+        System.out.print("Ingrese un número entero (hasta 5 dígitos): ");
+        int numero = scanner.nextInt();
+        int primeraCifra;
+
+        if (numero == 0) {
+            primeraCifra = 0;
+        } else {
+            // Manejar números negativos obteniendo el valor absoluto
+            int numAbs = Math.abs(numero);
+
+            // Método matemático: dividir repetidamente hasta quedar con un solo dígito
+            while (numAbs >= 10) {
+                numAbs /= 10;
+            }
+            primeraCifra = numAbs;
+
+            /* // Método alternativo con String:
+            String numStr = String.valueOf(Math.abs(numero));
+            primeraCifra = Character.getNumericValue(numStr.charAt(0));
+            */
+        }
+        System.out.println("La primera cifra del número " + numero + " es: " + primeraCifra);
+    }
+
+    // 7. Ejercicio Ciclos (Múltiplos de 8)
+    public static void ejercicioMultiplosDe8() {
+        System.out.println("Múltiplos de 8 entre 0 y 100:");
+        int i = 0;
+        while (i <= 100) {
+            if (i % 8 == 0) {
+                System.out.print(i + " ");
+            }
+            i++;
+        }
+        System.out.println(); // Salto de línea al final
+    }
+
+    // 8. Ejercicio Ciclos (Promedio de Números Positivos)
+    public static void ejercicioPromedioPositivos(Scanner scanner) {
+        double suma = 0;
+        int contador = 0;
+        double numero;
+
+        System.out.println("Ingrese números positivos (ingrese un negativo para terminar):");
+
+        while (true) {
+            System.out.print("Ingrese un número: ");
+            numero = scanner.nextDouble();
+
+            if (numero < 0) {
+                break; // Termina el ciclo si el número es negativo
+            }
+
+            suma += numero;
+            contador++;
+        }
+
+        if (contador > 0) {
+            double promedio = suma / contador;
+            System.out.printf("El promedio de los %d números positivos ingresados es: %.2f%n", contador, promedio);
+        } else {
+            System.out.println("No se ingresaron números positivos.");
+        }
+    }
+
+    // 9. Ejercicio Ciclos (Conteo de Positivos y Negativos)
+    public static void ejercicioConteoPositivosNegativos(Scanner scanner) {
+        int positivos = 0;
+        int negativos = 0;
+        // int ceros = 0; // Opcional: contar ceros también
+
+        System.out.println("Ingrese 10 números enteros:");
+        for (int i = 0; i < 10; i++) {
+            System.out.print("Número " + (i + 1) + ": ");
+            int numero = scanner.nextInt();
+            if (numero > 0) {
+                positivos++;
+            } else if (numero < 0) {
+                negativos++;
+            } /*else { // Opcional
+                ceros++;
+            }*/
+        }
+
+        System.out.println("Cantidad de números positivos: " + positivos);
+        System.out.println("Cantidad de números negativos: " + negativos);
+        // System.out.println("Cantidad de ceros: " + ceros); // Opcional
+    }
+
+    // 10. Ejercicio Ciclos (Pirámide Numérica)
+    public static void ejercicioPiramideNumerica(Scanner scanner) {
+        System.out.print("Ingrese el número de niveles para la pirámide: ");
+        int niveles = scanner.nextInt();
+
+        if (niveles <= 0) {
+            System.out.println("Por favor ingrese un número positivo de niveles.");
+            return;
+        }
+
+        System.out.println("Pirámide numérica:");
+        for (int i = 1; i <= niveles; i++) {
+            // Imprimir números ascendentes
+            for (int j = 1; j <= i; j++) {
+                System.out.print(j);
+            }
+            // Imprimir números descendentes (excepto el último)
+            for (int k = i - 1; k >= 1; k--) {
+                System.out.print(k);
+            }
+            System.out.println(); // Salto de línea para el siguiente nivel
+        }
+    }
+
+    // 11. Ejercicio Arreglos (Arreglo de Caracteres)
+    public static void ejercicioArregloCaracteres() {
+        char[] caracteres = new char[10];
+
+        // Asignando valores según el ejemplo (y completando arbitrariamente)
+        caracteres[0] = 'h';
+        caracteres[1] = 'z';
+        caracteres[2] = 'a'; // Valor de ejemplo
+        caracteres[3] = 'b'; // Valor de ejemplo
+        caracteres[4] = 'c'; // Valor de ejemplo
+        caracteres[5] = 'd'; // Valor de ejemplo
+        caracteres[6] = 'e'; // Valor de ejemplo
+        caracteres[7] = 'f'; // Valor de ejemplo
+        caracteres[8] = 'g'; // Valor de ejemplo
+        caracteres[9] = 'i'; // Valor de ejemplo (posición 9)
+
+        System.out.println("Contenido del arreglo 'caracteres':");
+        // Mostrar el arreglo
+        System.out.println(Arrays.toString(caracteres));
+
+        // Opcional: Mostrar cada elemento con su índice
+        /*
+        for (int i = 0; i < caracteres.length; i++) {
+            System.out.println("Posición " + i + ": " + caracteres[i]);
+        }
+        */
+    }
+
+    // 12. Ejercicio Arreglos (Orden Inverso)
+    public static void ejercicioOrdenInverso(Scanner scanner) {
+        int[] numeros = new int[10];
+
+        System.out.println("Ingrese 10 números enteros:");
+        for (int i = 0; i < numeros.length; i++) {
+            System.out.print("Número " + (i + 1) + ": ");
+            numeros[i] = scanner.nextInt();
+        }
+
+        System.out.println("Números en orden original: " + Arrays.toString(numeros));
+
+        System.out.print("Números en orden inverso: ");
+        for (int i = numeros.length - 1; i >= 0; i--) {
+            System.out.print(numeros[i] + " ");
+        }
+        System.out.println(); // Salto de línea final
+    }
+
+    // 13. Ejercicio Arreglos (Par o Impar)
+    public static void ejercicioParImpar(Scanner scanner) {
+        int[] numeros = new int[8];
+
+        System.out.println("Ingrese 8 números enteros:");
+        for (int i = 0; i < numeros.length; i++) {
+            System.out.print("Número " + (i + 1) + ": ");
+            numeros[i] = scanner.nextInt();
+        }
+
+        System.out.println("Clasificación Par/Impar:");
+        for (int numero : numeros) {
+            if (numero % 2 == 0) {
+                System.out.println(numero + " es par");
+            } else {
+                System.out.println(numero + " es impar");
+            }
+            // Alternativa con operador ternario:
+            // System.out.println(numero + " es " + (numero % 2 == 0 ? "par" : "impar"));
+        }
+    }
+}
