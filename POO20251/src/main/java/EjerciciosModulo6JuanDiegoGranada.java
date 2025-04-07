@@ -54,7 +54,7 @@ public class EjerciciosModulo6JuanDiegoGranada {
             case 5: System.out.println("Viernes");break;
             case 6: System.out.println("Sabado");break;
             case 7: System.out.println("Domingo");break;
-            default: System.out.println("Número no válido");break;
+            default: System.out.println("Número no válido");
         }
     }
     public static void ejercicio5(){
@@ -98,7 +98,6 @@ public class EjerciciosModulo6JuanDiegoGranada {
         teclado.close();
     }
     public static void ejercicio6(){
-        Scanner teclado = new Scanner(System.in);
         System.out.print("Ingresa un número entero de hasta 5 dígitos: ");
         int numero = teclado.nextInt();
         String cadena = Integer.toString(Math.abs(numero)); // abs para ignorar el signo
