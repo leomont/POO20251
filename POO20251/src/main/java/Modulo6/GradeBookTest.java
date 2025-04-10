@@ -1,26 +1,30 @@
-package Modulo5;// Fig. 7.7: RollDie.java
-// Die-rolling program using arrays instead of switch.
-import java.security.SecureRandom;
+package Modulo6;
 
-public class RollDie {
+// Fig. 7.19: GradeBookTest.java
+// GradeBookTest creates GradeBook object using a two-dimensional array  
+// of grades, then invokes method processGrades to analyze them.
+public class GradeBookTest {
+   // main method begins program execution
    public static void main(String[] args) {
-      SecureRandom randomNumbers = new SecureRandom(); 
-      int[] frequency = new int[7]; // array of frequency counters
-
-      // roll die 60,000,000 times; use die value as frequency index
-      for (int roll = 1; roll <= 60_000_000; roll++) {
-         ++frequency[1 + randomNumbers.nextInt(6)];
-      } 
-
-      System.out.printf("%s%10s%n", "Face", "Frequency");
-   
-      // output each array element's value
-      for (int face = 1; face < frequency.length; face++) {
-         System.out.printf("%4d%10d%n", face, frequency[face]);
-      } 
+      // two-dimensional array of student grades
+      int[][] gradesArray = {{87, 96, 70},      
+                             {68, 87, 90},      
+                             {94, 100, 90},     
+                             {100, 81, 82},     
+                             {83, 65, 85},      
+                             {78, 87, 65},      
+                             {85, 75, 83},      
+                             {91, 94, 100},     
+                             {76, 72, 84},      
+                             {87, 93, 73}};     
+      
+      GradeBook myGradeBook = new GradeBook(
+         "CS101 Introduction to Java Programming", gradesArray);
+      System.out.printf("Welcome to the grade book for%n%s%n%n", 
+         myGradeBook.getCourseName());
+      myGradeBook.processGrades();
    } 
 } 
-
 
 
 

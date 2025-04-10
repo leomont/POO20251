@@ -19,5 +19,9 @@ public class gradeBook {
     public gradeBook() {
     }
 
+    public void DetermineClassAverage(){
+
+    }
+
 }
 
