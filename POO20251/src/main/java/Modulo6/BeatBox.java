@@ -1,12 +1,14 @@
-
+package Modulo6;
 
 // chapter 13
 
-import java.awt.*;
-import javax.swing.*;
 import javax.sound.midi.*;
-import java.util.*;
-import java.awt.event.*;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.ArrayList;
+
 //https://www.youtube.com/watch?v=7qfCeIgtllY&t=260s
 public class BeatBox {
 
