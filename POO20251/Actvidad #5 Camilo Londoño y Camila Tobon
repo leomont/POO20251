@@ -1,0 +1,62 @@
+import java.util.*;
+
+public class MayaToDecimal1 {
+
+    // Método que convierte un nivel maya a su valor decimal
+    public static int valorNivel(String nivel) {
+        if (nivel.equals("0")) return 0;
+
+        int puntos = 0;
+        int barras = 0;
+
+        for (char c : nivel.toCharArray()) {
+            if (c == '.') puntos++;
+            else if (c == '-') barras++;
+        }
+
+        return puntos + barras * 5;
+    }
+
+    // Método que convierte el número maya completo a decimal
+    public static int mayaADecimal(List<String> niveles) {
+        int decimal = 0;
+        int potencia = 0;
+
+        // Se recorre de abajo hacia arriba (base a nivel superior)
+        for (int i = niveles.size() - 1; i >= 0; i--) {
+            int valor = valorNivel(niveles.get(i));
+            decimal += valor * Math.pow(20, potencia);
+            potencia++;
+        }
+
+        return decimal;
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        List<String> niveles = new ArrayList<>();
+
+        System.out.println("Conversor de número maya a decimal");
+        System.out.println("Introduce los niveles del número maya (de abajo hacia arriba).");
+        System.out.println("Usa '.' para puntos, '-' para barras y '0' para concha (cero).");
+        System.out.println("Escribe 'fin' cuando termines de ingresar los niveles.\n");
+
+        while (true) {
+            System.out.print("Nivel " + (niveles.size()) + ": ");
+            String entrada = scanner.nextLine().trim();
+
+            if (entrada.equalsIgnoreCase("fin")) break;
+
+            // Validar caracteres
+            if (!entrada.matches("[.\\-0]+") && !entrada.equals("0")) {
+                System.out.println("Entrada inválida. Usa solo '.', '-' o '0'. Intenta de nuevo.");
+                continue;
+            }
+
+            niveles.add(entrada);
+        }
+
+        int resultado = mayaADecimal(niveles);
+        System.out.println("\nNúmero decimal equivalente: " + resultado);
+    }
+}
