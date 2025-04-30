@@ -1,0 +1,36 @@
+public class Limites {
+
+    // Matrices Braille para algunas letras (H e I como ejemplo)
+    static boolean[][] letraH = {
+            {true, false},  // Punto 1 y 4
+            {true, true},   // Punto 2 y 5
+            {false, false}  // Punto 3 y 6
+    };
+
+    static boolean[][] letraI = {
+            {false, true},  // Punto 1 y 4
+            {true, false},  // Punto 2 y 5
+            {false, false}  // Punto 3 y 6
+    };
+
+    // Método para mostrar una letra en formato Braille (simulado en consola)
+    public static void mostrarBraille(boolean[][] matriz) {
+        for (int fila = 0; fila < 3; fila++) {
+            for (int col = 0; col < 2; col++) {
+                System.out.print(matriz[fila][col] ? "● " : "○ ");
+            }
+            System.out.println();
+        }
+        System.out.println();
+    }
+
+    public static void main(String[] args) {
+        System.out.println("Representación en Braille:");
+
+        System.out.println("Letra H:");
+        mostrarBraille(letraH);
+
+        System.out.println("Letra I:");
+        mostrarBraille(letraI);
+    }
+}
