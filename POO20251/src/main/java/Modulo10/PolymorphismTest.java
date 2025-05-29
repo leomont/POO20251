@@ -1,6 +1,7 @@
 // Fig. 10.1: PolymorphismTest.java
 // Assigning superclass and subclass references to superclass and
 // subclass variables.
+package Modulo10;
 
 public class PolymorphismTest {
    public static void main(String[] args) {
